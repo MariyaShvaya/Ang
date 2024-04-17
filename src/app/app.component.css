@@ -1,0 +1,40 @@
+body{
+    min-height: 100vh;
+    background: url(https://th.bing.com/th/id/OIP.FzJ13u1f-8CIidJeyGW0CwHaFc?rs=1&pid=ImgDetMain);
+    background-size: 100% auto; 
+    font-family: Artifika;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+  }
+
+nav {
+    background-color: #333; 
+    padding: 10px 20px;
+    text-align: center; 
+}
+
+nav a {
+    color: #fff; 
+    text-decoration: none; 
+    font-size: 16px; 
+    margin: 0 10px; 
+    padding: 5px 10px; 
+    transition: background-color 0.3s; 
+}
+
+nav a:hover {
+    background-color: #555; 
+    border-radius: 5px; 
+}
+
+nav a:not(:last-child):after {
+    content: "|"; 
+    color: #ccc;
+    margin-left: 10px; 
+}
+
+router-outlet {
+    display: block; 
+    margin-top: 20px; 
+}

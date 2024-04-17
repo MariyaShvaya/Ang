@@ -1,0 +1,38 @@
+div {
+    font-family: Arial, sans-serif; /* Sets the font for the container */
+    background-color: #f4f4f4; /* Light grey background */
+    padding: 20px; /* Adds space around the content */
+    border-radius: 8px; /* Rounded corners for the div */
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1); /* Subtle shadow for depth */
+    max-width: 800px; /* Limits the width of the div */
+    margin: auto; /* Centers the div horizontally */
+}
+
+h2 {
+    color: #2c3e50; /* Dark blue shade for the heading */
+    border-bottom: 2px solid #2980b9; /* Blue bottom border */
+    padding-bottom: 5px; /* Space below the text */
+}
+
+p {
+    text-align: justify; /* Justifies the text for a neat look */
+    line-height: 1.6; /* Increases line spacing for readability */
+    color: #333; /* Dark grey text for better readability */
+}
+
+h3 {
+    color: #27ae60; /* Green color for the sub-heading */
+    text-decoration: underline; /* Underlines the sub-heading */
+}
+
+ul {
+    list-style-type: none; /* Removes bullet points */
+    padding: 0; /* Removes padding */
+}
+
+li {
+    background-color: #ecf0f1; /* Light grey background for list items */
+    margin: 5px 0; /* Adds space between list items */
+    padding: 10px; /* Adds space inside each list item */
+    border-left: 5px solid #2980b9; /* Blue left border for list items */
+}

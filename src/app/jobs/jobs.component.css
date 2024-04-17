@@ -1,0 +1,43 @@
+div {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    width: 80%;
+    max-width: 600px;
+    margin: 20px auto;
+}
+
+h2 {
+    color: #333;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+ul {
+    list-style: none; /* Removes default list bullets */
+    padding: 0;
+    margin: 0;
+}
+
+li.job-item {
+    margin-bottom: 10px;
+    padding: 10px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+}
+
+li.job-item a {
+    text-decoration: none;
+    color: #2a77d2;
+    font-weight: 500; /* Slightly bolder text for visibility */
+    display: block; /* Makes the entire list item clickable */
+    transition: color 0.3s, background-color 0.3s;
+}
+
+li.job-item a:hover, li.job-item a:focus {
+    color: #fff;
+    background-color: #2a77d2;
+}
